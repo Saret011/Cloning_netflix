@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+header{
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.05)), url('./images/BKG.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+nav img{
+    width: 114px;
+    height: 62px;
+    margin-left: 5%;
+}
+
+
+header nav{
+    height: 90px;
+}
+
+nav .Singnin{
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 2%;
+    padding: 7px 17px;
+    border-radius: 2px;
+    border: none;
+}
+
+.wellcome{
+    margin: 0 3%;
+    position: absolute;
+    top: 25%;
+    font-size: 1.8vw;
+}
+
+.wellcome_title{
+    font-size: 3em;
+    margin: 0 0 0 0.2em;
+    font-weight: 600;    
+}
+
+.wellcome_inf{
+    margin: 0 0 0 0.5em;
+    font-weight: 200;    
+}
+
+.btn{
+    color: #fff;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 18px;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 2em;
+    cursor: pointer;
+}
+
+.Singnin:hover, .btn:hover{
+    background: #f40612;
+}
+
+#info > nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border: 2px solid #3d3d3d;
+}
+
+#info > nav a{
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+}
+
+#info > nav a:hover{
+    color: white;
+}
+
+#info > nav a img {
+    height: 49px;
+}
+
+#info > nav a h2 {
+    margin-top: 10px 0 0;
+    font-size: 1em;
+}
+
+.columns{
+    display: flex;
+}
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
